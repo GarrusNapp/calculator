@@ -5,6 +5,7 @@
   color: grey;
   text-shadow: 1px 1px #ff0000;
 }
+
 .main {
   background-color: #eeeeee;
   padding: 10px;
@@ -26,20 +27,15 @@
   user-select: none;
   grid-column: auto auto;
   grid-row: auto auto;
-
-
   display:flex;
   justify-content:center;
   align-items:center;
-
   border: 1px solid white;
   border-radius: 5px;
   font-family: 'Exo 2', sans-serif;
   font-size: 14pt;
-
   background: linear-gradient(snow, whitesmoke, snow);
   box-shadow: 0 5px 2px #888888;
-
 }
 
 .keyboard div:active {
@@ -66,10 +62,12 @@
   margin-bottom: 10px;
   border-radius: 10px;
 }
+
 .screen #equation {
   color: white;
   padding: 10px;
 }
+
 .screen #result {
   color: white;
   padding: 10px;
